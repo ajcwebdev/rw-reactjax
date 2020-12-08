@@ -1,5 +1,5 @@
 datasource DS {yarn redwood db save "create posts"
-  provider = "sqlite"
+  provider = "postgres"
   url      = env("DATABASE_URL")
 }
 
