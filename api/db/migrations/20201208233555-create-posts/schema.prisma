@@ -1,6 +1,6 @@
-datasource DS {yarn redwood db save "create posts"
-  provider = "sqlite"
-  url      = env("DATABASE_URL")
+datasource DS {
+  provider = "postgres"
+  url      = "***"
 }
 
 generator client {
